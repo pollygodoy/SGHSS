@@ -1,0 +1,405 @@
+{
+  "info": {
+    "name": "SGHSS API",
+    "description": "Collection for SGHSS - Sistema de Gestão Hospitalar e de Serviços de Saúde",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Autenticação",
+      "item": [
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"teste@vidaplus.com\",\n  \"senha\": \"senha123\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Registrar Usuário",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nome\": \"Poliane\",\n  \"email\": \"poliane@vidaplus.com\",\n  \"perfil\": \"ADMIN\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/auth/registrar?senha=senha123",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "auth",
+                "registrar"
+              ],
+              "query": [
+                {
+                  "key": "senha",
+                  "value": "senha123"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pacientes",
+      "item": [
+        {
+          "name": "Criar Paciente",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nome\": \"João Silva\",\n  \"cpf\": \"12345678901\",\n  \"email\": \"joao@email.com\",\n  \"telefone\": \"11999999999\",\n  \"dataNascimento\": \"1990-01-15\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/pacientes",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "pacientes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar Pacientes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/pacientes",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "pacientes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Buscar Paciente por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/pacientes/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "pacientes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Atualizar Paciente",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nome\": \"João Silva Atualizado\",\n  \"cpf\": \"12345678901\",\n  \"email\": \"joao.novo@email.com\",\n  \"telefone\": \"11999999999\",\n  \"dataNascimento\": \"1990-01-15\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/pacientes/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "pacientes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Deletar Paciente",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/pacientes/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "pacientes",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Profissionais de Saúde",
+      "item": [
+        {
+          "name": "Criar Profissional",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nome\": \"Dr. Carlos\",\n  \"especialidade\": \"Cardiologia\",\n  \"crm\": \"123456789\",\n  \"email\": \"carlos@email.com\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/profissionais",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "profissionais"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar Profissionais",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/profissionais",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "profissionais"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Buscar por Especialidade",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/profissionais/especialidade/Cardiologia",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "profissionais",
+                "especialidade",
+                "Cardiologia"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Consultas",
+      "item": [
+        {
+          "name": "Agendar Consulta",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"dataHora\": \"2024-02-15T14:00:00\",\n  \"pacienteId\": 1,\n  \"profissionalId\": 1,\n  \"observacoes\": \"Consulta de rotina\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/consultas",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "consultas"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar Consultas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/consultas",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "consultas"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Cancelar Consulta",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/consultas/1/cancelar",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "consultas",
+                "1",
+                "cancelar"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Prontuários",
+      "item": [
+        {
+          "name": "Criar Prontuário",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"descricao\": \"Paciente apresenta pressão alta e fadiga.\",\n  \"diagnostico\": \"Hipertensão\",\n  \"tratamento\": \"Prescrever medicação.\",\n  \"pacienteId\": 1,\n  \"profissionalId\": 1\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/prontuarios",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "prontuarios"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar Prontuários de Paciente",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/prontuarios/paciente/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "prontuarios",
+                "paciente",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
