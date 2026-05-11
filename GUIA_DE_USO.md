@@ -11,7 +11,7 @@
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/sghss.git
+git clone https://github.com/pollygodoy/sghss.git
 cd sghss
 
 # 2. Compile

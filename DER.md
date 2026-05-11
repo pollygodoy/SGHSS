@@ -271,6 +271,6 @@ Assumindo 100.000 registros de cada tabela:
 
 ---
 
-**Data de Atualização**: 15/01/2024
-**Responsável**: Poliane
+**Data de Atualização**: 28/03/2026
+**Responsável**: Poliane Fernandes de Godoy
 

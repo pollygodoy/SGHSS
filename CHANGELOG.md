@@ -1,6 +1,6 @@
 # CHANGELOG - Histórico de Desenvolvimento
 
-## [1.0.0] - 15 de Janeiro de 2024 - Lançamento MVP
+## [1.0.0] - 28 de Março de 2026 - Lançamento MVP
 
 ### ✅ Implementado
 
@@ -167,7 +167,7 @@
 
 1. **Clonar:**
    ```bash
-   git clone https://github.com/seu-usuario/sghss.git
+   git clone https://github.com/pollygodoy/sghss.git
    ```
 
 2. **Compilar:**
@@ -244,7 +244,7 @@ Apache License 2.0
 
 ---
 
-**Data de Criação**: 15 de Janeiro de 2024  
+**Data de Criação**: 28 de Março de 2026  
 **Status**: ✅ Pronto para Produção*  
 **Versão Atual**: 1.0.0
 

@@ -350,6 +350,6 @@ public PacienteDTO buscarPorId(Long id) { ... }
 
 ---
 
-**Data de Atualização**: 15/01/2024
-**Arquiteto**: Poliane
+**Data de Atualização**: 28/03/2026
+**Arquiteto**: Poliane Fernandes de Godoy
 
