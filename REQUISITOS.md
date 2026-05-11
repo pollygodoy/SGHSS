@@ -237,7 +237,7 @@ Pré-condição: Consulta foi realizada
 
 ---
 
-**Data de Atualização**: 15/01/2024
-**Responsável**: Poliane
-**Versão**: 1.0
+**Data de Atualização**: 29/03/2026
+**Responsável**: Poliane Fernandes de Godoy
+**Versão**: 2.0
 

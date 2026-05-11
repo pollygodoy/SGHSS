@@ -204,7 +204,7 @@ R: Sim! CORS está habilitado.
 **Erro (4xx/5xx):**
 ```json
 {
-  "timestamp": "2024-01-15T14:30:00",
+  "timestamp": "2026-03-29T14:30:00",
   "status": 400,
   "error": "Erro de Validação",
   "message": "Descrição do erro"

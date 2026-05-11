@@ -19,7 +19,7 @@ public class SwaggerConfig {
                         .description("API REST para gerenciamento de histórico de saúde dos pacientes")
                         .contact(new Contact()
                                 .name("Poliane Godoy")
-                                .email("pollygodoycurso@gmail.com")
+                                .email("poliane@vidaplus.com")
                                 .url("https://vidaplus.com.br")
                         )
                         .license(new License()

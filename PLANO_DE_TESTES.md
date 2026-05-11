@@ -118,7 +118,7 @@
 ### 6.2 Resposta de Erro
 ```json
 {
-  "timestamp": "2024-01-15T10:30:00",
+  "timestamp": "2026-03-15T10:30:00",
   "status": 400,
   "error": "Erro de Validação",
   "message": "Descrição do erro"
@@ -191,7 +191,7 @@
 
 ---
 
-**Data de Atualização**: 15/01/2024
-**Responsável**: Poliane
+**Data de Atualização**: 29/03/2026
+**Responsável**: Poliane Fernandes de Godoy
 **Status**: Em Progresso
 

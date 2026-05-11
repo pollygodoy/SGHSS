@@ -236,7 +236,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 **Request:**
 ```json
 {
-  "dataHora": "2024-02-15T14:00:00",
+  "dataHora": "2026-03-29T14:00:00",
   "pacienteId": 1,
   "profissionalId": 1,
   "observacoes": "Consulta de rotina"
@@ -247,7 +247,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 ```json
 {
   "id": 1,
-  "dataHora": "2024-02-15T14:00:00",
+  "dataHora": "2026-03-29T14:00:00",
   "status": "AGENDADA",
   "pacienteId": 1,
   "profissionalId": 1,
@@ -274,7 +274,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 ```json
 {
   "id": 1,
-  "dataHora": "2024-02-15T14:00:00",
+  "dataHora": "2026-03-29T14:00:00",
   "status": "CANCELADA",
   "pacienteId": 1,
   "profissionalId": 1,
@@ -305,7 +305,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 {
   "id": 1,
   "descricao": "Paciente apresenta pressão alta...",
-  "dataRegistro": "2024-01-15T14:30:00",
+  "dataRegistro": "2026-03-29T14:30:00",
   "diagnostico": "Hipertensão Arterial Estágio 1",
   "tratamento": "Prescrever Losartana 50mg...",
   "pacienteId": 1,
@@ -332,7 +332,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 
 ```json
 {
-  "timestamp": "2024-01-15T10:30:00",
+  "timestamp": "2026-03-29T10:30:00",
   "status": 422,
   "error": "Validação Falhou",
   "errors": {
@@ -347,7 +347,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 
 ```json
 {
-  "timestamp": "2024-01-15T10:30:00",
+  "timestamp": "2026-03-29T10:30:00",
   "status": 400,
   "error": "Erro de Validação",
   "message": "Paciente com este CPF já existe"
@@ -358,7 +358,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 
 ```json
 {
-  "timestamp": "2024-01-15T10:30:00",
+  "timestamp": "2026-03-29T10:30:00",
   "status": 404,
   "error": "Recurso Não Encontrado",
   "message": "Paciente não encontrado"
@@ -369,7 +369,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9...
 
 ```json
 {
-  "timestamp": "2024-01-15T10:30:00",
+  "timestamp": "2026-03-29T10:30:00",
   "status": 500,
   "error": "Erro Interno do Servidor",
   "message": "erro específico..."
@@ -426,7 +426,7 @@ curl -X POST http://localhost:8080/api/consultas \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer TOKEN_AQUI" \
   -d '{
-    "dataHora": "2024-02-20T14:30:00",
+    "dataHora": "2026-03-29T14:30:00",
     "pacienteId": 1,
     "profissionalId": 1,
     "observacoes": "Revisão cardiológica"
@@ -472,6 +472,6 @@ curl -X POST http://localhost:8080/api/prontuarios \
 
 ---
 
-**Última Atualização**: 15/01/2024
-**Versão**: 1.0
+**Última Atualização**: 28/03/2026
+**Versão**: 2.0
 

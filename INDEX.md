@@ -311,23 +311,23 @@ Quando a aplicação está rodando:
 
 ## 📅 Última Atualização
 
-| Documento | Data | Status |
-|-----------|------|--------|
-| QUICKSTART.md | 15/01/2024 | ✅ Ativo |
-| GUIA_DE_USO.md | 15/01/2024 | ✅ Ativo |
-| ARQUITETURA.md | 15/01/2024 | ✅ Ativo |
-| DER.md | 15/01/2024 | ✅ Ativo |
-| REQUISITOS.md | 15/01/2024 | ✅ Ativo |
-| PLANO_DE_TESTES.md | 15/01/2024 | ✅ Ativo |
-| CHECKLIST_DEPLOY.md | 15/01/2024 | ✅ Ativo |
-| SUMARIO.md | 15/01/2024 | ✅ Ativo |
-| CHANGELOG.md | 15/01/2024 | ✅ Ativo |
+| Documento | Data       | Status |
+|-----------|------------|--------|
+| QUICKSTART.md | 29/03/2026 | ✅ Ativo |
+| GUIA_DE_USO.md | 29/03/2026 | ✅ Ativo |
+| ARQUITETURA.md | 29/03/2026 | ✅ Ativo |
+| DER.md | 26/03/2026 | ✅ Ativo |
+| REQUISITOS.md | 26/03/2026 | ✅ Ativo |
+| PLANO_DE_TESTES.md | 26/03/2026 | ✅ Ativo |
+| CHECKLIST_DEPLOY.md | 26/03/2026 | ✅ Ativo |
+| SUMARIO.md | 26/03/2026 | ✅ Ativo |
+| CHANGELOG.md | 26/03/2026 | ✅ Ativo |
 
 ---
 
-**Versão**: 1.0  
-**Última Atualização**: 15 de Janeiro de 2024  
-**Desenvolvedor**: Poliane  
+**Versão**: 2.0  
+**Última Atualização**: 15 de Março de 2026 
+**Desenvolvedor**: Poliane Fernandes de Godoy (poliane@vidaplus.com)
 **Empresa**: Vida Plus
 
 ---

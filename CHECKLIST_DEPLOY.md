@@ -205,9 +205,9 @@
 
 **Em caso de problemas em produção:**
 
-1. **Desenvolvedor Principal**: Poliane Fernandes de Godoy (pollygodoycurso@gmail.com)
+1. **Desenvolvedor Principal**: Poliane Fernandes de Godoy (poliane@vidaplus.com)
 2. **Suporte Técnico**: suporte@vidaplus.com
-3. **Emergências**: +55 (19) 984063748
+3. **Emergências**: +55 (19) 99999-9999
 
 **Escalation Path:**
 - Tier 1: Suporte Técnico

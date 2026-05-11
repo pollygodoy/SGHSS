@@ -260,11 +260,11 @@ mvn test
 
 ## 17. Histórico de Versões
 
-| Versão | Data | Status | Descrição |
-|--------|------|--------|-----------|
-| 1.0 | 15/01/2024 | ✅ Lançada | MVP completo com 24 endpoints |
-| 1.1 | Planejado | ⏳ Pendente | Paginação + Filtros |
-| 2.0 | Planejado | ⏳ Futuro | Aplicação mobile |
+| Versão | Data       | Status | Descrição |
+|--------|------------|--------|-----------|
+| 1.0 | 29/03/2026 | ✅ Lançada | MVP completo com 24 endpoints |
+| 1.1 | Planejado  | ⏳ Pendente | Paginação + Filtros |
+| 2.0 | Planejado  | ⏳ Futuro | Aplicação mobile |
 
 ## 18. Licença
 
@@ -277,8 +277,8 @@ Obrigado pelo uso do SGHSS!
 
 ---
 
-**Data de Geração**: 15/01/2024  
-**Versão da Documentação**: 1.0  
+**Data de Geração**: 29/03/2026
+**Versão da Documentação**: 2.0  
 **Status Final**: ✅ PRONTO PARA PRODUÇÃO*
 
 *Pendências: Validação de usuários finais, Testes em ambiente de produção
